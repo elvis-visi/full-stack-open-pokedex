@@ -6,6 +6,9 @@
 app = 'full-stack-open-pokedex3'
 primary_region = 'ams'
 
+[env]
+PORT = "3000"
+
 [processes]
   app = "node app.js" # add this
 
